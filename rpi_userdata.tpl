@@ -19,8 +19,8 @@ sudo mkdir "/mnt/raidMount"
 sudo mount /dev/md10 "/mnt/raidMount"
 
 BUCKET_NAME="nextcloud-hithesh24r-admin"
-ACCESS_KEY="AKIAX75PSEIW6JASABX7"
-SECRET_ACCESS_KEY="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"
+ACCESS_KEY=""
+SECRET_ACCESS_KEY=""
 REGION="ap-south-1"
 
 sudo aws configure set aws_access_key_id $ACCESS_KEY
